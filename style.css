@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  font-family: sans-serif;
+}
+.box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* background-color: bisque; */
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 0 0 5px 0 #2228;
+  border-radius: 4px;
+}
+.female {
+  background-color: pink;
+}
+
+.male {
+  background-color: green;
+}
